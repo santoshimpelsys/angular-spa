@@ -1,0 +1,41 @@
+<div class="card bg-body-tertiary justify-content-center">
+    <div class="card-header text-bg-primary text-center p-1">
+        <h4 class="card-title">Contact Form</h4>
+    </div>
+    <div class="card-body">
+        <form name="contact-form" id="contact-form" method="post" action="http://127.0.0.1:5500/contactus.html">
+            <div>
+                Name: <input type="text" name="name" placeholder="Enter your name" required>
+            </div>
+            <div>
+                Gender: 
+                <input type="radio" name="gender" value="Male">Male
+                <input type="radio" name="gender" value="Female">Female
+                <input type="radio" name="gender" value="Other">Other
+            </div>
+            <div>
+                Courses:
+                <select name="courses" id="courses">
+                    <option value="php">PHP</option>
+                    <option value="mysql">MySQL</option>
+                    <option value="html5">HTML5</option>
+                    <option value="css3">CSS3</option>
+                    <option value="javascripti">JavaScript</option>
+                </select>
+            </div>
+            <div>
+                Softwares: 
+                <input type="checkbox" name="softwares" value="Male">Vs Code
+                <input type="checkbox" name="softwares" value="Female">PHPStorm
+                <input type="checkbox" name="softwares" value="Other">MSOffice 365
+            </div>
+            <div>
+                Remarks:
+                <textarea style="width: 100%;" rows="4" name="remarks" id="remarks" placeholder="Your Remarks Here"></textarea>
+            </div>
+            <div>
+                <input type=submit>
+            </div>
+        </form>
+    </div>
+</div>
